@@ -1,0 +1,54 @@
+Virtual User Script started at : 5/17/2016 1:16:10 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 7; build 1203 (May 17 2016 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "E:\Scripts\WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_url("favicon.ico") started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_url("favicon.ico") was successful, 300 body bytes, 242 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(21): web_url("favicon.ico_2") started  	[MsgId: MMSG-26355]
+vuser_init.c(21): Resource "http://www.bing.com/favicon.ico" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(30): Notify: Transaction "Homepage" started.
+vuser_init.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(35): web_url("www.example.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(35): Registered web_reg_find successful for "Text=Example Domain" (count=2)  	[MsgId: MMSG-26364]
+vuser_init.c(35): web_url("www.example.com") was successful, 606 body bytes, 350 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(45): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(45): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(49): Notify: Transaction "Homepage" ended with a "Pass" status (Duration: 0.3777 Wasted Time: 0.0017).
+vuser_init.c(51): Notify: Transaction "More Info" started.
+vuser_init.c(53): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(53): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(56): web_url("More information...") started  	[MsgId: MMSG-26355]
+vuser_init.c(56): Downloading resource "http://www.iana.org/_img/2015.1/fonts/NotoSans-Regular.woff" (specified by argument number 10)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Downloading resource "http://www.iana.org/_img/2015.1/fonts/NotoSans-Bold.woff" (specified by argument number 13)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Downloading resource "http://www.iana.org/_img/2015.1/fonts/NotoSans-Italic.woff" (specified by argument number 16)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Downloading resource "http://www.iana.org/_img/2015.1/fonts/SourceCodePro-Regular.woff" (specified by argument number 19)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Downloading resource "https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblockindex.bin" (specified by argument number 22)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Downloading resource "https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblocklist.bin" (specified by argument number 25)  	[MsgId: MMSG-26577]
+vuser_init.c(56): Redirecting "http://www.iana.org/domains/example" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(56): To location "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26693]
+vuser_init.c(56): Found resource "http://www.iana.org/_css/2015.1/screen.css" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Found resource "http://www.iana.org/_css/2015.1/print.css" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Found resource "http://www.iana.org/_js/2013.1/jquery.js" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Found resource "http://www.iana.org/_js/2013.1/iana.js" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Found resource "http://www.iana.org/_img/2013.1/iana-logo-header.svg" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Found resource "http://www.iana.org/_img/2013.1/icann-logo.svg" in HTML "http://www.iana.org/domains/reserved"  	[MsgId: MMSG-26659]
+vuser_init.c(56): Notify: Transaction "http://www.iana.org/_img/2013.1/iana-logo-header.svg" will be skipped - could not calculate the transaction time (duration=0.1811, think_time=0.0000, wasted_time=1.0463).
+vuser_init.c(56): Notify: Transaction "http://www.iana.org/_js/2013.1/jquery.js" will be skipped - could not calculate the transaction time (duration=0.5233, think_time=0.0000, wasted_time=1.0485).
+vuser_init.c(56): Registered web_reg_find successful for "Text=IANA — IANA-managed Reserved Domains" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(56): web_url("More information...") was successful, 591141 body bytes, 5053 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(73): Notify: Transaction "More Info" ended with a "Pass" status (Duration: 4.0166 Wasted Time: 1.0880).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

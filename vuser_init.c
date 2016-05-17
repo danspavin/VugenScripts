@@ -9,24 +9,6 @@
 vuser_init()
 {
 
-	web_url("favicon.ico", 
-		"URL=http://www.bing.com/favicon.ico", 
-		"TargetFrame=", 
-		"Resource=1", 
-		"RecContentType=image/x-icon", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		LAST);
-
-	web_url("favicon.ico_2", 
-		"URL=http://www.bing.com/favicon.ico", 
-		"TargetFrame=", 
-		"Resource=1", 
-		"RecContentType=image/x-icon", 
-		"Referer=", 
-		"Snapshot=t2.inf", 
-		LAST);
-
 	lr_start_transaction("Homepage");
 
 	web_reg_find("Text=Example Domain", 
